@@ -1,28 +1,32 @@
-
 # Python Console Calculator v3.0
 
-Надійний консольний калькулятор з історією розрахунків та збереженням у файл.
+A reliable console calculator with calculation history and file saving.
 
-## Функціонал
-- Підтримка операцій: `+`, `-`, `*`, `/`
-- Захист від помилок введення та ділення на нуль
-- **Історія операцій** (команда `history`)
-- Збереження історії у файл `calculator_history.txt` (не зникає після перезапуску)
-- Очищення історії (команда `clear`)
-- Команда `exit` для виходу
-- Цикл для зручного використання
+**Надійний консольний калькулятор з історією розрахунків та збереженням у файл.**
 
-## Команди
-- `history` — показати історію розрахунків
-- `clear` — очистити історію
-- `exit` — вийти з програми
+## Features / Функціонал
 
-## Як запустити
+- Supports operations: `+`, `-`, `*`, `/`
+- Input validation and division by zero protection
+- **Operation history** (command `history`)
+- History saved to file `calculator_history.txt` (persists after restart)
+- Clear history (command `clear`)
+- `exit` command to quit
+- Loop for multiple calculations
+
+## Commands / Команди
+
+- `history` — show calculation history
+- `clear` — clear history
+- `exit` — exit the program
+
+## How to run / Як запустити
+
 ```bash
 python calculator_v3.py
-Технології
+Technologies
 Python 3
-Робота з файлами
-Автор
-Script Master (Кременчуг)
-Дата: 25 квітня 2026
+File I/O (work with files)
+Author / Автор
+Script Master (Kremenchuk)
+Date / Дата: April 25, 2026
